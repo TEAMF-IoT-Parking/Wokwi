@@ -18,7 +18,7 @@ while not sta_if.isconnected():
 print("\nWi-Fi connected! IP:", sta_if.ifconfig())
 
 # === Webhook API URL ===
-API_URL = "https://webhook.site/ef9fde39-97c3-4266-969e-3d22bc1e757e"
+API_URL = "https://hooks.zapier.com/hooks/catch/25312579/usj5m2p/"
 
 # === 초음파 핀 설정 ===
 TRIGGER_PIN = machine.Pin(4, machine.Pin.OUT)
