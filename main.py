@@ -19,8 +19,8 @@ while not sta_if.isconnected():
 print("\nWi-Fi connected! IP:", sta_if.ifconfig())
 
 # === Cloud Function URL ===
-API_URL = "https://asia-northeast3-leafy-sunrise-479411-j6.cloudfunctions.net/esp32-sensor-log"
-#API_URL = "https://asia-northeast3-<YOUR_PROJECT>.cloudfunctions.net/esp32-sensor-log" -> doker
+#API_URL = "https://asia-northeast3-leafy-sunrise-479411-j6.cloudfunctions.net/esp32-sensor-log" #-> my server
+API_URL = "https://asia-northeast3-mysecondproject-479412.cloudfunctions.net/esp32-sensor-log" #-> doker
 
 # === 초음파 핀 설정 ===
 TRIGGER_PIN = machine.Pin(4, machine.Pin.OUT)
